@@ -1,0 +1,40 @@
+---
+-
+  Bridge:
+    -
+       BridgeName: B1
+       Length: 100
+    -
+       Hikers:
+         -
+            HikerName: A
+            Speed: 100
+         -
+            HikerName: B
+            Speed: 50
+         -
+            HikerName: C
+            Speed: 20
+         -
+            HikerName: D
+            Speed: 10
+    -
+       BridgeName: B2
+       Length: 250
+    -
+       Hikers:
+         -
+            HikerName: E
+            Speed: 2.5
+    -
+       BridgeName: B3
+       Length: 150
+    -
+       Hikers:
+         -
+            HikerName: F
+            Speed: 25
+         -
+            HikerName: G
+            Speed: 15
+

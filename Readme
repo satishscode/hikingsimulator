@@ -1,0 +1,38 @@
+
+Hiking Team Simulator
+
+	- Hike Data
+	- Data Parser
+	   * FSM
+	   * Load data in memory
+	- Cross Bridge
+	   * Will compute all the output
+	- Print Report
+
+For the sample yaml file, given, the optimum time taken 
+to cross the bridge is all follows:
+
+100,10  -----------------------   D = 10 minutes
+           100/10 = 10 minutes
+              ------->
+           100/100 = 1 minute
+              <-------
+
+100,20  -----------------------   C = 5 minutes, D (Already here)
+           100/20 = 5 minutes
+              ------->
+           100/100 = 1 minute
+              <-------
+
+100,50  -----------------------   B = 2 mins, C & D (Already here)
+           100/50 = 2 minutes
+              ------->
+
+Outcome for the above:
+Total Time for A: 10 + 1 + 5 + 1 + 2 = 19 minutes
+Fastest time to cross the bridge B1: 2 minutes for hiker B.
+
+Similarly compute for the rest of the bridges to get:
+	1. Fastest time in which the hikers can cross each bridge.
+	2. Total time for all crossings.
+
